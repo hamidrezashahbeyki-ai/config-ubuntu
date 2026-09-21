@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" >/dev/null 2>&1 && pwd -P)"
+cat aliases.sh >> $HOME/.bash-aliases
+# you have to source .bash-aliases at the end of .zshrc file
 
-
-echo "source $SCRIPT_DIR/aliases.sh" >> $HOME/.zshrc
