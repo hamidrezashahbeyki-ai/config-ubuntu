@@ -1,0 +1,10 @@
+encrypt
+gpg -c yourfile.txt
+
+encrypt to a custom out put file
+gpg -o restored.txt -d yourfile.txt.gpg
+
+decrypt
+gpg yourfile.txt.gpg
+
+
